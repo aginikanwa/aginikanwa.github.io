@@ -1,0 +1,38 @@
+@import "templatecolours.css";
+
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: indianred;
+}
+header{
+    background-color: aliceblue;
+}
+main{
+    background-color: aqua;
+}
+section{
+    background-color: white;
+}
+aside{
+    background-color: aqua;
+}
+article{
+    background-color: cadetblue;
+}
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li{
+    float: left;
+}
+nav>ul>li a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+
+}
